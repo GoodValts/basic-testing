@@ -25,7 +25,7 @@ describe('simpleCalculator tests', () => {
   });
 
   test('should return null for invalid action', () => {
-    expect(simpleCalculator({ a, b, action: 'invalid'})).toBeNull();
+    expect(simpleCalculator({ a, b, action: ':'})).toBeNull();
   });
 
   test('should return null for invalid arguments', () => {
